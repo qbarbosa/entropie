@@ -122,9 +122,16 @@ ul.langswitcher li.mobile {
 
 /* Media Queries */
 @media screen and (max-width: 540px) {
+    .home #header {
+        padding: 50px 0 0;
+    } 
     .home #header h1 {
         font-size: 65px;
     }
+    .home #post-list {
+        margin-top: 30px;
+    }
+
     #header {
         padding: 50px 0 25px;
     }
