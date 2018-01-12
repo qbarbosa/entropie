@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Fira Mono';
+        src: url('../fonts/FiraMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Share Tech Mono';
+        src: url('../fonts/Share-TechMono.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font:16px/1 "Fira Mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: #424242;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#header {
+    padding: 0 0 0 20px;
+    border-bottom: 0;
+    text-align: center;
+}
+#header h1 {
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -1px;
+    text-transform: none;
+    line-height: 1em;
+    font-size: 34px;
+    text-align: center;
+    margin: 0 auto 26px;
+}
+.home #header h1 {
+    font-size: 90px;
+}
+.home #header h2 {
+    font-size: 24px;
+}
+.post header {
+    margin-bottom: 80px;
+}
+
+#header h2 {
+    font-style: normal;
+    font-family: Fira Mono;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -1px;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 20px;
+    color: #404040;
+}
+
+footer#footer p.small {
+    font-size: 11px;
+    color: #888;
+}
+
+footer#footer img {
+    width: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Share Tech Mono" !important;
+}
+
+.profile h2,
+.post h2.headline,
+#post-list h2,
+#post-list a,
+#post-list .dates,
+h2.month,
+#archive-list a,
+#archive-list .dates,
+#post-list.archive.readmore h3,
+#post-list.archive.readmore a,
+#post-list.archive.readmore .dates,
+.home h2 {
+    font-family: 'Fira Mono', Helvetica, Arial, sans-serif;
+}
+
+
+.post h1 {
+    font-size: 45px;
+}
+.post h2 {
+    font-family: "Share Tech Mono";
+    margin-top: 80px;
+}
+
+/*Accent color*/
+a:hover,
+p a:hover,
+nav.main-nav a:hover {
+    color: #3674d1;
+}
+
+/* Language switcher */
+ul.langswitcher li.mobile {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 540px) {
+    .home #header h1 {
+        font-size: 65px;
+    }
+    #header {
+        padding: 50px 0 25px;
+    }
+
+    /* Language switcher */
+    ul.langswitcher {
+        padding: 0;
+    }
+    ul.langswitcher li.mobile {
+        display: inline-block;
+    }
+    ul.langswitcher li.desktop {
+        display: none;
+    }
+
+    nav.main-nav a {
+        padding: 8px 5px;
+    }
+}

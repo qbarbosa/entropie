@@ -1,0 +1,18 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block header %}
+    {% if page.header.profile %}
+        {% include 'partials/profile.html.twig' %}
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {{ page.content }}
+    <div style="margin: 35px 0; text-align: center;">
+        <a href="https://www.linkedin.com/in/quentin-barbosa/"><img src="/user/pages/02.about/linkedin-icon.png" style="width: auto;"></a>
+        <a href="https://github.com/qbarbosa"><img src="/user/pages/02.about/github-icon.png" style="width: auto;"></a>
+        <a href="https://octodon.social/@franklinovitch"><img src="/user/pages/02.about/mastodon-icon.png" style="width: auto;"></a>
+    </div>
+{% endblock %}
