@@ -19,11 +19,14 @@ After a few researches about all the different desktop environments that are ava
 
 I really had a feeling of being empowered as a user with it.
 
-The only drawback of this desktop environment is that it is really ugly by default:
+The only drawback of this desktop environment is that it looks really ugly by default:
 
 ![](xfce_default.png)
 
 Since I'm not in love with those 90's like interfaces, I looked for a way to get something more clean.
+
+People on Reddit call this process "ricing".
+> "Rice" is a word that is commonly used to refer to making visual improvements and customizations on one's desktop. It was inherited from the practice of customizing cheap Asian import cars to make them appear to be faster than they actually were - which was also known as "ricing". The word is accepted by the majority of the community and is used sparingly to refer to a visually attractive desktop upgraded beyond the default.
 
 ## Layout
 At first, I was not sure about the interface layout I wanted to have. I enjoyed both MacOS and Windows' UI so I tried to recreate them with XFCE.
