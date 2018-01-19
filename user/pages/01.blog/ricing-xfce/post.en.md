@@ -1,12 +1,13 @@
 ---
 title: 'Ricing XFCE'
+media_order: 'dockbarx.png,my_desktop.png,xfce_default.png'
 date: '00:00 18-01-2018'
 taxonomy:
     tag:
         - Linux
         - XFCE
         - UI
-        - User interface
+        - 'User interface'
 headline: 'Getting a Windows-like UI on Linux'
 ---
 
@@ -21,7 +22,7 @@ I really had a feeling of being empowered as a user with it.
 
 The only drawback of this desktop environment is that it looks really ugly by default:
 
-![](xfce_default.png)
+![](xfce_default.png?lightbox=1027&cropResize=520,520)
 
 Since I'm not in love with those 90's like interfaces, I looked for a way to get something more clean.
 
@@ -41,27 +42,27 @@ That's why I went with a Windows-like layout. Here is the result:
 
 Pretty classic: a bar at the bottom containing from left to right, applications menu, desktop spaces list, applications list, quick access icons, clock, and a "return to desktop" button.
 
-I did this by installing the DockbarX module and customizing it with the [NokuTofu](https://github.com/bhajneet/Noku-Tofu) theme.
+I did this by installing the DockbarX module and customizing it with the [NokuTofu](https://github.com/bhajneet/Noku-Tofu?target=_blank) theme.
 
 ## Theme
-![](my_desktop.png)
+![My desktop](my_desktop.png?lightbox=1920&cropResize=520,520)
 
 Finally, to get rid of the old look, I changed the GTK theme, fonts, and icons as follows:
-- _GTK theme_: [Arc Theme](https://github.com/horst3180/arc-theme)
-- _Icons_: [Paper icons pack](https://snwh.org/paper)
-- _Fonts_: "Noto Sans" in the ordinary windows, "[Input](http://input.fontbureau.com/)" in the terminal and code editors.
+- _GTK theme_: [Arc Theme](https://github.com/horst3180/arc-theme?target=_blank)
+- _Icons_: [Paper icons pack](https://snwh.org/paper?target=_blank)
+- _Fonts_: "Noto Sans" in the ordinary windows, "[Input](http://input.fontbureau.com/?target=_blank)" in the terminal and code editors.
 
 ---
 
-All of this was obviously inspired by [/r/unixporn](https://www.reddit.com/r/unixporn/) but was mostly taken from [this post](https://www.reddit.com/r/unixporn/comments/644d1o/xfce_1_year_of_linux_6_mos_of_stable_rice) written by -Chase.
+All of this was obviously inspired by [/r/unixporn](https://www.reddit.com/r/unixporn/?target=_blank) but was mostly taken from [this post](https://www.reddit.com/r/unixporn/comments/644d1o/xfce_1_year_of_linux_6_mos_of_stable_rice?target=_blank) written by -Chase.
 I'm thankful for all the details he provides there.
 
-If ever you are interested, you can dig into [my dotfiles](https://github.com/qbarbosa/dotfiles) as well but I don't do much with them.
+If ever you are interested, you can dig into [my dotfiles](https://github.com/qbarbosa/dotfiles?target=_blank) as well but I don't do much with them.
 
-Customizing my desktop might seem like something useless but I think it was a good way to learn more about Linux. 
-Now, I look to my computer in a different way, knowing that every interface can be changed and that I don't have to keep the default one if I don't like it.
-I would definitely recommend going through this process if you want to learn, plus it feels good to build your desktop exactly as you want. 
+Customizing one's desktop might seem like something useless but I think it was a good way to learn more about Linux. 
+Now, I look at my computer in a different way, knowing that every interface can be changed and that I don't have to keep the default one if I don't like it.
+I would definitely recommend going through this process if you want to learn, plus it feels good to build your desktop exactly the way you want it to be. 
 
 ---
 
-This article was written while listening to ["2+2=5"](https://www.youtube.com/watch?v=lstDdzedgcE) by Radiohead.
+This article was written while listening to ["2+2=5"](https://www.youtube.com/watch?v=lstDdzedgcE?target=_blank) by Radiohead.
