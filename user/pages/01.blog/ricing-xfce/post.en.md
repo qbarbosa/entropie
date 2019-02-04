@@ -24,7 +24,7 @@ The only drawback of this desktop environment is that it looks really ugly by de
 
 ![](xfce_default.png?lightbox=1027&cropResize=520,520)
 
-Since I'm not in love with those 90's like interfaces, I looked for a way to get something more clean.
+Since I'm not in love with this 90's feeling default style, I looked for a way to get something cleaner.
 
 People on Reddit call this process "ricing".
 > "Rice" is a word that is commonly used to refer to making visual improvements and customizations on one's desktop. It was inherited from the practice of customizing cheap Asian import cars to make them appear to be faster than they actually were - which was also known as "ricing". The word is accepted by the majority of the community and is used sparingly to refer to a visually attractive desktop upgraded beyond the default.
@@ -33,7 +33,7 @@ People on Reddit call this process "ricing".
 At first, I was not sure about the interface layout I wanted to have. I enjoyed both MacOS and Windows' UI so I tried to recreate them with XFCE.
 
 But I failed at recreating a convinceful MacOS-like topbar that would contain the menu for each application.
-Indeed, the problem with Linux applications is that they can use different frontend languages: some will use GTK, others QML, etc.
+Indeed, the problem with Linux applications is that they can use different frontend interfaces: some will use GTK, others QML, etc.
 So since you have different frontend languages, it is difficult to have a single top bar that will integrate nicely with all of them.
 
 That's why I went with a Windows-like layout. Here is the result:

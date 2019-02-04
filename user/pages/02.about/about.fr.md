@@ -4,11 +4,9 @@ class: home
 profile: true
 ---
 
-Hey,
-
 Je suis Quentin, un développeur vivant à Paris.
 
-Je travaille actuellement chez [Sikana](https://www.sikana.tv), une ONG qui crée une plateforme collaborative pour partager les savoir-faire.
+Je suis intéressé par la technologie, surtout quand elle est au service de bonnes causes comme la culture, la recherche, ou l'éducation. Je suis également passionné de musique.
 
 J'écris en Anglais pour la technique, et en Français pour le reste.
 

@@ -35,6 +35,10 @@ user/pages-dist
 user/plugins/*
 !user/plugins/.*
 user/themes/cacti
+user/pages/01.blog/*
+!user/pages/01.blog/*.md
+user/pages/02.about/*
+!user/pages/02.about/.*
 
 # Tests results
 tests/_output/*
