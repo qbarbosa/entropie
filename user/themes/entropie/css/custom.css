@@ -25,6 +25,61 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+#navigation nav.main-nav {
+    display: inline-block;
+    position: relative;
+    float: left;
+    /*width: 100%;*/
+    /*max-width: 600px;*/
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: left;
+    z-index: 100;
+    background: unset;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#navigation ul.langswitcher {
+    display: inline-block;
+    position: relative;
+    float: right;
+    /*width: 100%;*/
+    /*max-width: 600px;*/
+    margin: 0;
+    margin-left: 0px;
+    margin-right: 1rem !important;
+    padding-right: 20px;
+    text-align: right;
+    z-index: 100;
+    background: unset;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+a,
+#title,
+#post-list li:hover a,
+#title:hover {
+    color: #5694f1;
+}
+b, strong {
+    font-weight: 600;
+}
+pre {
+    background: #23241f !important;
+    padding: 20px !important;
+}
+pre code {
+    background: transparent;
+    color: #d0d4d7;
+}
 #header {
     padding: 0 0 0 20px;
     border-bottom: 0;
@@ -42,7 +97,7 @@ body {
     margin: 0 auto 26px;
 }
 .home #header h1 {
-    font-size: 90px;
+    font-size: 80px;
 }
 .home #header h2 {
     font-size: 24px;
@@ -54,6 +109,13 @@ body {
 .home #post-list {
     margin-top: 45px;
 }
+.home #post-list h2 {
+    max-width: 450px;
+}
+.home #post-list .dates {
+    padding-left: 15px;
+}
+
 .post header {
     margin-bottom: 80px;
 }
@@ -68,6 +130,10 @@ body {
     line-height: 1.8em;
     font-size: 20px;
     color: #404040;
+}
+
+footer#footer {
+    padding: 70px 0 0 0;
 }
 
 footer#footer p.small {
@@ -108,6 +174,7 @@ h2.month,
     margin-top: 80px;
 }
 
+
 /*Accent color*/
 a:hover,
 p a:hover,
@@ -119,6 +186,7 @@ nav.main-nav a:hover {
 ul.langswitcher li.mobile {
     display: none;
 }
+
 
 /* Media Queries */
 @media screen and (max-width: 540px) {
