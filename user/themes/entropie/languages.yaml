@@ -3,7 +3,7 @@ en:
     TITLE: Entropie
     DESCRIPTION: Ideas in disorder
     HEADLINE: Read my publications below or learn more <a href="https://entropie.is/fr/about">about me</a>.
-    COPYRIGHT: This content is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    COPYRIGHT: This content is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br/><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="/user/themes/entropie/images/cc-by-sa-80x15.png" /></a>
   SUBSCRIBE: RSS feed
   TWEET: Tweet
   SHARE: Share
@@ -15,7 +15,7 @@ fr:
     TITLE: Entropie
     DESCRIPTION: Idées en désordre
     HEADLINE: Consultez mes publications ci-dessous ou apprenez-en plus <a href="https://entropie.is/fr/about">à mon propos</a>.
-    COPYRIGHT: Le contenu de ce site est sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International</a>.
+    COPYRIGHT: Le contenu de ce site est sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International</a>.<br/><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><img alt="Licence Creative Commons" style="border-width:0" src="/user/themes/entropie/images/cc-by-sa-80x15.png" /></a>
   SUBSCRIBE: Flux RSS
   TWEET: Twittez
   SHARE: Partagez
