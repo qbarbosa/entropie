@@ -1,5 +1,5 @@
 ---
-title: Accueil
+title: Entropie
 class: home
 sitemap:
     changefreq: monthly
@@ -12,7 +12,7 @@ content:
     limit: 8
     pagination: true
 feed:
-    description: Entropie
+    description: Entropie, idées en désordre
     limit: 10
 ---
 
