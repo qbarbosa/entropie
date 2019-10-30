@@ -10,6 +10,7 @@ en:
   MONTHS_OF_THE_YEAR: [January, February, March, April, May, June, July, August, September, October, November, December]
   SHORT_MONTHS_OF_THE_YEAR: [Jan, Feb, March, April, May, June, July, Aug, Sept, Oct, Nov, Dec]
   DAYS_OF_THE_WEEK: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+  THEMESWITCH: Light/Dark
 
 fr:
   SITE:
@@ -23,3 +24,4 @@ fr:
   MONTHS_OF_THE_YEAR: [Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre]
   SHORT_MONTHS_OF_THE_YEAR: [Jan, Fév, Mars, Avril, Mai, Juin, Juil, Août, Sept, Oct, Nov, Déc]
   DAYS_OF_THE_WEEK: [Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche]
+  THEMESWITCH: Jour/Nuit

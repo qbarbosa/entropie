@@ -1,0 +1,32 @@
+<div class="theme-switcher">
+    <a href="#" id="themeSwitchButton" title="{{ 'THEMESWITCH'|t }}">
+        {{ 'THEMESWITCH'|t }}
+    </a>
+</div>
+
+
+<script>
+	$(document).ready(function() {
+
+		function applyTheme() {
+			if (localStorage.getItem('mode') === 'dark')
+				document.querySelector('body').classList.add('dark');
+			else
+				document.querySelector('body').classList.remove('dark');
+        }
+
+        function storeTheme() {
+			let currentMode = localStorage.getItem('mode');
+			localStorage.setItem('mode', currentMode === 'dark' ? 'light' : 'dark');
+		}
+
+		function switchTheme() {
+			storeTheme();
+			applyTheme();
+		}
+
+		applyTheme();
+        $("#themeSwitchButton").click(switchTheme);
+		
+    });
+</script>
