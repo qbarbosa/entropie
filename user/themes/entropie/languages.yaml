@@ -11,6 +11,10 @@ en:
   SHORT_MONTHS_OF_THE_YEAR: [Jan, Feb, March, April, May, June, July, Aug, Sept, Oct, Nov, Dec]
   DAYS_OF_THE_WEEK: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
   THEMESWITCH: Light/Dark
+  PLUGIN_COMMENTS:
+    WRITTEN_AT: at
+    CAPTCHA_LABEL: How much is thirty plus twelve?
+    CAPTCHA_PLACEHOLDER: Answer here
 
 fr:
   SITE:
@@ -25,3 +29,7 @@ fr:
   SHORT_MONTHS_OF_THE_YEAR: [Jan, Fév, Mars, Avril, Mai, Juin, Juil, Août, Sept, Oct, Nov, Déc]
   DAYS_OF_THE_WEEK: [Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche]
   THEMESWITCH: Jour/Nuit
+  PLUGIN_COMMENTS:
+    WRITTEN_AT: à
+    CAPTCHA_LABEL: Combien font trente plus douze ?
+    CAPTCHA_PLACEHOLDER: Répondez ici

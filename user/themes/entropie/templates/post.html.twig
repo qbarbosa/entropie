@@ -26,7 +26,7 @@
     </nav>
 
 
-    <!-- Disqus comments -->
+    {# Disqus comments #}
     {% if page.header.disqus %}
         <div class="archive readmore">
             <h3>Comments</h3>
@@ -34,7 +34,10 @@
         </div>
     {% endif %}
 
-    <!-- Archive post list -->
+    {# Comments #}
+    {% include 'partials/comments.html.twig' with {'page': page} %}
+
+    {# Archive post list #}
     {% if page.header.archive %}
         <ul id="post-list" class="archive readmore">
             <h3>Read more</h3>
