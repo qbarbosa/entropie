@@ -25,7 +25,7 @@ user/LICENSE
 user/accounts/*
 !user/accounts/.*
 user/config/*.*
-user/config/plugins/*
+user/config/plugins/email.yaml
 !user/config/plugins/.*
 user/config/themes/*
 !user/config/themes/entropie.yaml
